@@ -26,7 +26,7 @@ device = uinput.Device([
         uinput.KEY_KP8,
         uinput.KEY_KP9,
         uinput.KEY_KP0,
-	    uinput.KEY_LEFTSHIFT,
+	uinput.KEY_LEFTSHIFT,
         uinput.KEY_ENTER,
         ])
 
@@ -89,7 +89,7 @@ while True:
                     device.emit_click(uinput.KEY_E)
                 elif sHex == "f" :
                     device.emit_click(uinput.KEY_F)
-	print "ID: " + ID
+	#print "ID: " + ID
 	if ID == Tag1:
 		print "matched"
 		#GPIO.output(23,True)
