@@ -8,7 +8,6 @@ import RPi.GPIO as GPIO
 GPIO.setmode(GPIO.BCM)
 
 Tag1 = str('01058AA2F8D4')
-#Test
 device = uinput.Device([
         uinput.KEY_A,
         uinput.KEY_B,
